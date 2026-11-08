@@ -1,0 +1,13 @@
+{
+  "name": "magnetic-ui",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A real-sensor magnetic interface experiment for the web.",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/main.js && node --check src/sensor.js && node --check src/calibration.js && node --check src/physics.js"
+  },
+  "keywords": ["magnetometer", "generic-sensor", "web-bluetooth", "web-serial", "interaction"],
+  "license": "MIT"
+}
